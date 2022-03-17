@@ -1,14 +1,20 @@
 import React from 'react';
 import './App.css';
-import Input from "./components/input/Input";
+import Chat from "./components/chat/Chat";
+import Heading from "./components/chat/Heading";
+import ChatCard from "./components/chatCard/ChatCard";
 
 function App() {
-  return (
-    <div className="App">
-<header>VOCO</header>
+    return (
+        <div className="App">
+            <Heading/>
+            <form>
+            <Chat/>
 
-    </div>
-  );
+
+            </form>
+        </div>
+    );
 }
 
 export default App;
