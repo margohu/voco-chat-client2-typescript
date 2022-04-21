@@ -14,7 +14,7 @@
 
 .ipsum {
     border-radius: 4px;
-    background-color: black;
+    background-color: #959190;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,22 @@
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #575453;
+    flex-flow: column;
+    padding: 1rem;
+    margin-bottom: 20px;
+    width: 50%;
+    font-size: 14px;
+}
+
+.container.box {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
     justify-content: end;
     align-items: center;
     margin: auto;
@@ -37,5 +53,22 @@
 
 p {
     color: white;
+}
+
+/* BUTTON */
+.btn-wrapper {
+    display: flex;
+    justify-content: end;
+    justify-content: flex-end;
+    margin: 12px 0px;
+    width: 100%;
+}
+
+.btn-wrapper button {
+    color: white;
+}
+
+.btn-group {
+    width: 100%;
 }
 
